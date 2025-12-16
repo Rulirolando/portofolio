@@ -9,8 +9,10 @@ const Header = () => {
     <div className="pt-7 w-full max-w-3x1 text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 dark:text-white dark:bg-black">
       <div>
         <Image
-          src={imgProfile}
+          src="/assets/imgprofile/PAS.jpg"
           alt=""
+          width={200}
+          height={200}
           className="rounded-full w-32 h-32 object-cover object-top"
         />
       </div>

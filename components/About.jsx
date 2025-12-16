@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import fotoUser from "../public/assets/imgprofile/PAS.jpg";
 import { infolist, toolsData } from "../public/assets/imgprofile/infoList";
-import { li } from "motion/react-client";
 const About = () => {
   return (
     <div
@@ -14,7 +12,13 @@ const About = () => {
 
       <div className="flex w-full flex-col lg:flex-row  items-center gap-10 my-5 ">
         <div className="w-64 sm:w-48 rounded-3xl max-w-none">
-          <Image src={fotoUser} alt="User" className="w-full rounded-3xl" />
+          <Image
+            src="/assets/imgprofile/PAS.jpg"
+            alt="User"
+            width={300}
+            height={300}
+            className="w-full rounded-3xl"
+          />
         </div>
         <div className="flex-1">
           <p className="mb-7 max-w-2xl font-Ovo dark:text-white">
