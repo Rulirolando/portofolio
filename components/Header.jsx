@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaRegHandPeace } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa";
 const Header = () => {
-  const resumeFilePath = "/assets/Ruli_Rolando_Intern_Frontend.pdf";
+  const resumeFilePath = "/assets/CV_RULI_ROLANDO.pdf";
   return (
     <div className="pt-7 w-full max-w-3x1 text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 dark:text-white dark:bg-black">
       <div>

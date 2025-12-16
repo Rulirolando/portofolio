@@ -56,6 +56,20 @@ export const serviceData = [
       "Aplikasi web sederhana untuk menjual barang menggunakan Typescript, Next.js, dan PostgreSQL.",
     link: "https://github.com/Rulirolando/web-commerce.git",
   },
+  {
+    icon: <TbWorld className="w-10" />,
+    title: "Web sosial media",
+    description:
+      "Aplikasi web sederhana untuk sosial media menggunakan Typescript, Next.js, dan PostgreSQL.",
+    link: "https://github.com/Rulirolando/Social_media.git",
+  },
+  {
+    icon: <TbWorld className="w-10" />,
+    title: "Web penjualan online berbasis localstorage",
+    description:
+      "Aplikasi web sederhana untuk menjual barang menggunakan Typescript, Next.js, dan localstorage.",
+    link: "https://github.com/Rulirolando/E-commerce-localstorage.git",
+  },
 ];
 
 export const sertifikatdata = [
