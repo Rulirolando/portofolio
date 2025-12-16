@@ -46,7 +46,7 @@ const About = () => {
           </ul>
 
           <h4 className="my-3 text-gray-700 font-Ovo dark:text-white">
-            Tools yang saya gunakan
+            Framework & Tools yang saya gunakan
           </h4>
           <ul className="flex items-center gap-3 sm:gap-3">
             {toolsData.map((tool) => (
