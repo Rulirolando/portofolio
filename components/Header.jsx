@@ -8,7 +8,7 @@ const Header = () => {
     <div className="pt-7 w-full max-w-3x1 text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 dark:text-white dark:bg-black">
       <div>
         <Image
-          src="/assets/imgprofile/PAS.jpg"
+          src="/assets/imgprofile/PAS.JPG"
           alt=""
           width={200}
           height={200}

@@ -13,7 +13,7 @@ const About = () => {
       <div className="flex w-full flex-col lg:flex-row  items-center gap-10 my-5 ">
         <div className="w-64 sm:w-48 rounded-3xl max-w-none">
           <Image
-            src="/assets/imgprofile/PAS.jpg"
+            src="/assets/imgprofile/PAS.JPG"
             alt="User"
             width={300}
             height={300}
