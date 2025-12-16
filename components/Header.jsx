@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { FaRegHandPeace } from "react-icons/fa6";
-import imgProfile from "../public/assets/imgprofile/PAS.jpg";
 import { FaDownload } from "react-icons/fa";
 const Header = () => {
   const resumeFilePath = "/assets/Ruli_Rolando_Intern_Frontend.pdf";
