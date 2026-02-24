@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full px-[12%] py-16 scroll-mt-10 dark:bg-black dark:text-white"
+      className="w-full px-[12%] mx-2 md:mx-0 py-16 scroll-mt-10 dark:bg-black dark:text-white"
     >
       <h4 className="text-center mb-2 text-lg font-Ovo">Perkenalan</h4>
       <h2 className="text-center text-3xl font-Ovo">About me</h2>
@@ -20,8 +20,8 @@ const About = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="flex-1">
-          <p className="mb-7 max-w-2xl font-Ovo dark:text-white">
+        <div className="flex-1 w-full">
+          <p className="mb-7 max-w-2xl md:max-w-3xl font-Ovo dark:text-white">
             Saya sekarang adalah seorang mahasiswa Teknik Informatika di STMIK
             Bina Mulia Palu saya belum memiliki pengalaman kerja tapi saya sudah
             mempunyai kemampuan dalam bidang fullstack web developer dibuktikan

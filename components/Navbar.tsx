@@ -77,7 +77,7 @@ const Navbar = () => {
         {/* --------------------Mobile Menu --------------------- */}
         <ul
           ref={sideMenuRef}
-          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 "
+          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen dark:bg-[#111] dark:text-white bg-rose-50 transition duration-500 shadow-2xl "
         >
           {" "}
           <div className="absolute top-5 right-5 " onClick={closeMenu}>
