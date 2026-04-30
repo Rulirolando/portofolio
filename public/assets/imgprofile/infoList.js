@@ -63,13 +63,6 @@ export const serviceData = [
   },
   {
     icon: <TbWorld className="w-10" />,
-    title: "Web penjualan online",
-    description:
-      "Aplikasi web sederhana untuk menjual barang menggunakan Typescript, Next.js, dan PostgreSQL.",
-    link: "https://github.com/Rulirolando/web-commerce.git",
-  },
-  {
-    icon: <TbWorld className="w-10" />,
     title: "Web sosial media",
     description:
       "Aplikasi web sederhana untuk sosial media menggunakan Typescript, Next.js, dan PostgreSQL.",
