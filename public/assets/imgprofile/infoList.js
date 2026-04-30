@@ -12,6 +12,12 @@ import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiPrisma } from "react-icons/si";
+import { SiRedis } from "react-icons/si";
+import { SiRabbitmq } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { SiSocketdotio } from "react-icons/si";
+import { SiZod } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 export const infolist = [
   {
@@ -39,6 +45,12 @@ export const toolsData = [
   <RiNextjsFill key="nextjs" className="w-5 sm:w-7" />,
   <RiTailwindCssFill key="tailwindcss" className="w-5 sm:w-7" />,
   <SiPrisma key="prisma" className="w-5 sm:w-7" />,
+  <SiRedis key="redis" className="w-5 sm:w-7" />,
+  <SiRabbitmq key="rabbitmq" className="w-5 sm:w-7" />,
+  <FaDocker key="docker" className="w-5 sm:w-7" />,
+  <SiSocketdotio key="socketio" className="w-5 sm:w-7" />,
+  <SiZod key="zod" className="w-5 sm:w-7" />,
+  <SiTypescript key="typescript" className="w-5 sm:w-7" />,
 ];
 
 export const serviceData = [
@@ -65,10 +77,10 @@ export const serviceData = [
   },
   {
     icon: <TbWorld className="w-10" />,
-    title: "Web penjualan online berbasis localstorage",
+    title: "Web penjualan online",
     description:
-      "Aplikasi web sederhana untuk menjual barang menggunakan Typescript, Next.js, dan localstorage.",
-    link: "https://github.com/Rulirolando/E-commerce-localstorage.git",
+      "Aplikasi web sederhana untuk menjual barang menggunakan Typescript, Next.js, dan PostgreSQL.",
+    link: "https://github.com/Rulirolando/E-commerce.git",
   },
 ];
 
