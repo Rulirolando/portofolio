@@ -84,7 +84,7 @@ const Navbar = () => {
             <IoCloseOutline className="w-5 cursor-pointer" />
           </div>
           <li>
-            <a href="#home" onClick={closeMenu}>
+            <a href="#top" onClick={closeMenu}>
               Home
             </a>
           </li>
@@ -99,12 +99,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#work" onClick={closeMenu}>
-              My work
+            <a href="#sertifikat" onClick={closeMenu}>
+              My Certificate
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={closeMenu}>
+            <a href="#kontak" onClick={closeMenu}>
               Contact me
             </a>
           </li>
